@@ -29,9 +29,16 @@ kit from a script, and holds the code they share. Each kit matches a system on
 | 5. [`page-engine`](https://github.com/meinsta/page-engine) | Builds product pages and paid landings where the docs supply every detail and code judges the words you write |
 
 ## Public Work
-- [Qdrant website](https://qdrant.tech): 26 merged pull requests since July 2026. I built the GPU Indexing page, rebuilt the Cloud Inference page, shipped 13 paid search landing pages, added click and scroll-depth tracking to the Cloud and product pages, and fixed navigation, page metadata and structured data across the site. On the [Edge page](https://qdrant.tech/edge/) I wrote the Demos section.
-- [Sentinel](https://sentinel-edge-demo.vercel.app/): a Qdrant Edge demo built by Qdrant's DevRel team. I made its frontend deployable from hosted data, moved the clips to hosted storage, and rebuilt the search collection.
-- [Edge Visual Search](https://edge-visual-search.vercel.app/): a Qdrant Edge demo built by DevRel. I fixed a search error, made the video source configurable, and hosted the API.
-- [Smart Glasses](https://smart-glasses-edge.vercel.app/): a Qdrant Edge demo built by DevRel. I wrote a small API over the demo package so the browser demo can search, and hosted it.
-- [`qdrant-oversampling-bench`](https://github.com/meinsta/qdrant-oversampling-bench): a benchmark I wrote that measures recall and p95 latency together across an oversampling sweep with binary quantization.
+
+On the [Qdrant website](https://qdrant.tech), I write and ship product pages and paid search landing pages, and contribute to its tracking and navigation.
+
+On its [Edge page](https://qdrant.tech/edge/), I got three demos built by Qdrant's DevRel team running in the browser:
+
+- [Sentinel](https://sentinel-edge-demo.vercel.app/): I made its frontend deployable from hosted data, moved the clips to hosted storage, and rebuilt the search collection.
+- [Edge Visual Search](https://edge-visual-search.vercel.app/): I fixed a search error, made the video source configurable, and hosted the API.
+- [Smart Glasses](https://smart-glasses-edge.vercel.app/): I wrote a small API over the demo package so the browser demo can search, and hosted it.
+
+Repos of my own:
+
+- [`qdrant-oversampling-bench`](https://github.com/meinsta/qdrant-oversampling-bench): a benchmark that measures recall and p95 latency together across an oversampling sweep with binary quantization.
 - [`qdrant-opentelemetry-tutorial`](https://github.com/meinsta/qdrant-opentelemetry-tutorial): a sample that shows Qdrant Cloud metrics in your own OpenTelemetry backend.
