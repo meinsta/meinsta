@@ -40,6 +40,5 @@ anyone can open in a browser.
 Page work: [landing_page#3113](https://github.com/qdrant/landing_page/pull/3113).
 
 ## More public work
-- [`qdrant-oversampling-bench`](https://github.com/meinsta/qdrant-oversampling-bench): recall and latency across an oversampling sweep
-- [`qdrant-opentelemetry-tutorial`](https://github.com/meinsta/qdrant-opentelemetry-tutorial): Qdrant Cloud in your OTel backend
-- [`page-search`](https://github.com/meinsta/page-search): neural search for docs and articles
+- [`qdrant-oversampling-bench`](https://github.com/meinsta/qdrant-oversampling-bench): a benchmark I wrote that measures recall and p95 latency together across a binary-quantization oversampling sweep
+- [`qdrant-opentelemetry-tutorial`](https://github.com/meinsta/qdrant-opentelemetry-tutorial): a sample showing Qdrant Cloud metrics in your own OpenTelemetry backend
